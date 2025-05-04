@@ -1,0 +1,9 @@
+{
+    "custom/cycle_wall": {
+        "icon": "",
+        "executeOnAction": "",
+        "actions": {
+            "onLeftClick": "~/.config/hypr/scripts/tools/next-wallpaper"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+@include styleModule(
+    'cmodule-cycle_wall',
+    (
+        'icon-color': #FFFFFF,
+        'icon-background': #090909,
+        'label-background': #000000,
+        'border-enabled': false,
+        'icon-size': 1.2em
+    )
+);
