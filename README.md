@@ -5,7 +5,7 @@ These are intended to be stored in $HOME/.config/ in most linux distributions
 ```sh
 $ git clone git@github.com:MtnDont/dotfiles.git
 $ cd dotfiles.git
-$ cp -r $HOME/.config
+$ cp -r * $HOME/.config
 ```
 
 # Current configs
