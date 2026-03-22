@@ -3,11 +3,10 @@ return {
   build = ":TSUpdate",
   dependencies = {
     "nvim-treesitter/nvim-treesitter-context",
-    { "nvim-treesitter/playground" }
   },
   config = function()
     require("nvim-treesitter.install").prefer_git = true
-    require("nvim-treesitter.configs").setup({
+    require("nvim-treesitter.config").setup({
       ensure_installed = {
         "asm",
         "bash",
